@@ -64,15 +64,15 @@ To overcome overfitting, we split our dataset into 30% testing and 70% training.
 
 ### Modeling Approach
 We have built 9 different models to analyze our result and identify the best performing model. The following are the models that we used to train and test the data:
-Perceptron 
-Decision Tree 
-Random Forest 
-Dense Neural Network
-K-Nearest Neighbors
-Logistic Regression  
-Naive Bayes 
-Support Vector Machines (SVM)
-Extreme Gradient Boost
+* Perceptron 
+* Decision Tree 
+* Random Forest 
+* Dense Neural Network
+* K-Nearest Neighbors
+* Logistic Regression  
+* Naive Bayes 
+* Support Vector Machines (SVM)
+* Extreme Gradient Boost
 
 The Customer Churn rate detection task is an imbalanced classification problem: we have two classes we need to identify customers who will churn and who will not, with one category representing the overwhelming majority of the data points.
 The positive class is greatly outnumbered by the negative class; hence accuracy is not a good measure for assessing the model performance. Recall can be thought of as a model’s ability to find all the data points of interest in a dataset.
@@ -83,9 +83,9 @@ In this case, true positives are the correctly identified customers who would le
 
 From our analysis we identified 3 best performing models based on accuracy, recall area under the ROC curve.
 The ROC curve below shows us the best 3 models:
---> Random Forest
---> Extreme Gradient Boosting
---> Decision Tree
+* Random Forest
+* Extreme Gradient Boosting
+* Decision Tree
 
 
 It was observed that the top 2 best performing models are ensemble models. Ensemble modeling is a process where multiple diverse models are created to predict an outcome by using many different modeling algorithms. The ensemble model then aggregates the prediction of each base model and results in one final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction.
