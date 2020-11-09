@@ -24,10 +24,13 @@ In the exploration section, we found that the majority of the data is from custo
 ![attribute_exploration_2](https://user-images.githubusercontent.com/64316317/98598430-7227e780-22a8-11eb-95fb-e9e996bcce69.png)
 
 
-Next, in the left graph, we discovered that the majority of the data is from customers in France. And in the right graph, it shows that the proportion of female customers churning is greater than the proportion of male customers churning.
+Next, in the left graph, we discovered that the majority of the data is from customers in France.
 
 ![male_churn](https://user-images.githubusercontent.com/64316317/98598901-2590dc00-22a9-11eb-8955-61bccf059456.png)
 
+And in the below graph, it shows that the proportion of female customers churning is greater than the proportion of male customers churning.
+
+![male_churn_2](https://user-images.githubusercontent.com/64316317/98599744-7fde6c80-22aa-11eb-9a44-bce00dcd68f5.png)
 
 We also found that the majority of the customers that churned are those with credit cards. But maybe most of the customers have credit cards, so it might just be a coincidence. And in another graph, you can see that inactive members have a greater churn, which is not surprising. But you can also find that the overall proportion of inactive members is quite high, which is not a good sign.
 
