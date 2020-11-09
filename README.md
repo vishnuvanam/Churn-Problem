@@ -45,6 +45,7 @@ But you can also find that the overall proportion of inactive members is quite h
 ### Correlation Analysis
 In the  correlation heatmap, we didn’t find any highly correlated predictors in this dataset, which is good for our analysis. And the highest is between age and exited, which is 0.29.
 
+![correlation_analyses](https://user-images.githubusercontent.com/64316317/98600499-a4871400-22ab-11eb-867d-471dd8ab3480.png)
 
 ### Outliers Analysis
 In the outlier analysis, the boxplot shows that there are few outliers in credit score and a great number of outliers in Age. And we will mention how we deal with the outliers in the next section.
