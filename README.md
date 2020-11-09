@@ -36,8 +36,9 @@ We also found that the majority of the customers that churned are those with cre
 
 ![has_credtitcard](https://user-images.githubusercontent.com/64316317/98600169-288ccc00-22ab-11eb-986f-2536f2c1b68e.png)
 
-And in another graph, you can see that inactive members have a greater churn, which is not surprising. 
+And in another graph, you can see that inactive members have a greater churn, which is not surprising.
 
+![has_credtitcard_1](https://user-images.githubusercontent.com/64316317/98600298-5540e380-22ab-11eb-9fe2-feada3049404.png)
 
 But you can also find that the overall proportion of inactive members is quite high, which is not a good sign.
 
