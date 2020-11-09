@@ -101,7 +101,9 @@ The screenshot below shows us the model comparison results for all the models th
 ![test dataset](https://user-images.githubusercontent.com/64316317/98601724-730f4800-22ad-11eb-83be-af17dc963def.png)
 
 ### Oversampling
-One scenario that we noticed during the initial modelling scenario is that we had a class imbalance problem. 
+One scenario that we noticed during the initial modelling scenario is that we had a class imbalance problem.
+
+![oversamoling](https://user-images.githubusercontent.com/64316317/98602064-def1b080-22ad-11eb-8b8e-3e7a97663d1e.png)
 
 The initial training sample in the dataset, as you can see above, had about 20% of the customers who had exited as against the 80% of customers who were retained. We realized that the model might learn from this imbalance and predict with greater accuracy the customers that are more likely to retained. Due to this scenario, the very first model that we built had a recall of only 0.34, not all of the 1’s were captured by the model and 314 false negatives. It was predicting that 314 people who were churning as not churning. This seemed like a significantly huge number. Now our goal was to hit a balance with recall and false negatives by doing oversampling and then studying the results.
 Oversampling involves randomly selecting examples from the minority class (here exited = 1 or
