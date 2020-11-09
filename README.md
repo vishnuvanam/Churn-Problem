@@ -21,7 +21,7 @@ In the exploration section, we found that the majority of the data is from custo
 
 ![attribute_exploration](https://user-images.githubusercontent.com/64316317/98598217-1eb59980-22a8-11eb-83e0-a27538188f15.png)
 
-
+![attribute_exploration_2](https://user-images.githubusercontent.com/64316317/98598430-7227e780-22a8-11eb-95fb-e9e996bcce69.png)
 
 
 Next, in the left graph, we discovered that the majority of the data is from customers in France. And in the right graph, it shows that the proportion of female customers churning is greater than the proportion of male customers churning.
