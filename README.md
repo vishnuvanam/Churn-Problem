@@ -110,6 +110,8 @@ Oversampling involves randomly selecting examples from the minority class (here 
 churned customers) with replacement and adding them to the training sample. As you can see from the
 infographic that the data after sampling was balanced. The class counts after imbalance can be seen in the picture below. 
 
+![over sampling end](https://user-images.githubusercontent.com/64316317/98602384-5d4e5280-22ae-11eb-9fe0-93fc2287d2ad.png)
+
 ### Model Selection
 In order to come to a balance between recall and false negatives by doing oversampling, we then modelled using another ensemble technique called Bagging or Bootstrap aggregation. This is a process of combining different models to achieve better performance by sampling(here with replacement). The Random Forest model is a classic example of Bagging. Based on the initial results we saw that Random forest was the best performing model.(Accuracy - 86.56%  False Negatives - 314  recall - 0.44).
 Below is an example of the results that we obtained after performing random forest post over sampling.
