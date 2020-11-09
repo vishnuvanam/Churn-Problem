@@ -18,7 +18,9 @@ The dataset consists of 10,000 records with 14 different columns.  Most of the a
 ## Exploratory Analysis
 ### Attribute Exploration
 In the exploration section, we found that the majority of the data is from customers with one or two products. And customers with one product, like owning a credit card or having a checking account, have more chances to leave.  We also discovered the distribution of customer’s age in this dataset and it seems like the younger generation has a relatively lower chance to leave the bank.
+
 ![attribute_exploration](https://user-images.githubusercontent.com/64316317/98598217-1eb59980-22a8-11eb-83e0-a27538188f15.png)
+
 
 
 
