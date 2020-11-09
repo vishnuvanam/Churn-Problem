@@ -121,9 +121,9 @@ Below is an example of the results that we obtained after performing random fore
 Increase in the accuracy by 1.5%. It had a 5% increase in recall while also capturing enough false negatives i.e., 272. There seemed to be a steep increase in the ability of the classifier to find all the to be churned customers. 
 
 ### Findings
-
-
 290 customers who actually churn are predicted as churned. Bank will invest in these customers to get them to retain them. 272 customers who actually churn are predicted as retained. This would be unseen CTC.
+
+![findings](https://user-images.githubusercontent.com/64316317/98602771-0301c180-22af-11eb-8052-57cb70913d94.PNG)
 
 
 ## Recommendations
