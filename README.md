@@ -50,6 +50,8 @@ In the  correlation heatmap, we didn’t find any highly correlated predictors i
 ### Outliers Analysis
 In the outlier analysis, the boxplot shows that there are few outliers in credit score and a great number of outliers in Age. And we will mention how we deal with the outliers in the next section.
 
+![outliers](https://user-images.githubusercontent.com/64316317/98600798-1eb79880-22ac-11eb-9774-a6f999ba7383.png)
+
 ## Modifications
 ### Removing outliers
 We calculated the Z score of the numerical variables and we chose the threshold of 3 or -3. If the Z-score value was greater than 3 or less than -3, that data point would be identified as outliers. After  detecting the outliers using Z-score, we wanted to remove these outliers and got the cleaned dataset. The dataset was removed around 200 rows.
