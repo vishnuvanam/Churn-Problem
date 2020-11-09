@@ -32,7 +32,14 @@ And in the below graph, it shows that the proportion of female customers churnin
 
 ![male_churn_2](https://user-images.githubusercontent.com/64316317/98599744-7fde6c80-22aa-11eb-9a44-bce00dcd68f5.png)
 
-We also found that the majority of the customers that churned are those with credit cards. But maybe most of the customers have credit cards, so it might just be a coincidence. And in another graph, you can see that inactive members have a greater churn, which is not surprising. But you can also find that the overall proportion of inactive members is quite high, which is not a good sign.
+We also found that the majority of the customers that churned are those with credit cards. But maybe most of the customers have credit cards, so it might just be a coincidence. 
+
+![has_credtitcard](https://user-images.githubusercontent.com/64316317/98600169-288ccc00-22ab-11eb-986f-2536f2c1b68e.png)
+
+And in another graph, you can see that inactive members have a greater churn, which is not surprising. 
+
+
+But you can also find that the overall proportion of inactive members is quite high, which is not a good sign.
 
 ### Correlation Analysis
 In the  correlation heatmap, we didn’t find any highly correlated predictors in this dataset, which is good for our analysis. And the highest is between age and exited, which is 0.29.
