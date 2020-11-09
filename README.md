@@ -98,6 +98,8 @@ By combining weak learner after weak learner, our final model is able to account
 A Decision tree is a flowchart like tree structure, where each internal node denotes a test on an attribute, each branch represents an outcome of the test, and each leaf node (terminal node) holds a class label. A tree can be “learned” by splitting the source set into subsets based on an attribute value test. This process is repeated on each derived subset in a recursive manner called recursive partitioning. The recursion is completed when the subset at a node all has the same value of the target variable, or when splitting no longer adds value to the predictions.  The feature importance is clear, and relations can be viewed easily. Decision trees can handle high dimensional data. In general, the decision tree classifier has good accuracy.
 The screenshot below shows us the model comparison results for all the models that we performed with respect to accuracy, precision. Recall, F1 Score and Area under the ROC Curve for the test dataset.
 
+![test dataset](https://user-images.githubusercontent.com/64316317/98601724-730f4800-22ad-11eb-83be-af17dc963def.png)
+
 ### Oversampling
 One scenario that we noticed during the initial modelling scenario is that we had a class imbalance problem. 
 
