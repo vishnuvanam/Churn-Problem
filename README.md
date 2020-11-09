@@ -116,6 +116,8 @@ infographic that the data after sampling was balanced. The class counts after im
 In order to come to a balance between recall and false negatives by doing oversampling, we then modelled using another ensemble technique called Bagging or Bootstrap aggregation. This is a process of combining different models to achieve better performance by sampling(here with replacement). The Random Forest model is a classic example of Bagging. Based on the initial results we saw that Random forest was the best performing model.(Accuracy - 86.56%  False Negatives - 314  recall - 0.44).
 Below is an example of the results that we obtained after performing random forest post over sampling.
 
+![model selection](https://user-images.githubusercontent.com/64316317/98602623-c1711680-22ae-11eb-95be-f67d4e5e674f.png)
+
 Increase in the accuracy by 1.5%. It had a 5% increase in recall while also capturing enough false negatives i.e., 272. There seemed to be a steep increase in the ability of the classifier to find all the to be churned customers. 
 
 ### Findings
