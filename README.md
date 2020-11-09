@@ -83,9 +83,9 @@ In this case, true positives are the correctly identified customers who would le
 
 From our analysis we identified 3 best performing models based on accuracy, recall area under the ROC curve.
 The ROC curve below shows us the best 3 models:
-Random Forest
-Extreme Gradient Boosting
-Decision Tree
+--> Random Forest
+--> Extreme Gradient Boosting
+--> Decision Tree
 
 
 It was observed that the top 2 best performing models are ensemble models. Ensemble modeling is a process where multiple diverse models are created to predict an outcome by using many different modeling algorithms. The ensemble model then aggregates the prediction of each base model and results in one final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction.
