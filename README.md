@@ -87,6 +87,7 @@ The ROC curve below shows us the best 3 models:
 * Extreme Gradient Boosting
 * Decision Tree
 
+![roc_analyses](https://user-images.githubusercontent.com/64316317/98601473-190e8280-22ad-11eb-936d-c546adc37d4b.png)
 
 It was observed that the top 2 best performing models are ensemble models. Ensemble modeling is a process where multiple diverse models are created to predict an outcome by using many different modeling algorithms. The ensemble model then aggregates the prediction of each base model and results in one final prediction for the unseen data. The motivation for using ensemble models is to reduce the generalization error of the prediction.
 Random forest (bagging technique) consists of a large number of individual decision trees that operate as an ensemble. Each individual tree in the random forest spits out a class prediction and the class with the most votes becomes our model’s prediction. So, in our random forest, we end up with trees that are not only trained on different sets of data but also use different features to make decisions.
