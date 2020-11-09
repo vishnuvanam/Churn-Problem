@@ -13,7 +13,7 @@ We found our dataset on a public data platform - Kaggle, where the dataset was f
 The dataset consists of 10,000 records with 14 different columns.  Most of the attributes are numerical (11) and the remaining are categorical (3).  The target variable is “Exited” which is a binary variable - coded as a “1” if the customer churned, and a “0” otherwise.
 
 ### Columns
-
+![columnsForChurnProblem](https://user-images.githubusercontent.com/64316317/98597330-de095080-22a6-11eb-881c-6a9c31b0e131.PNG)
 
 ## Exploratory Analysis
 ### Attribute Exploration
